@@ -1,6 +1,6 @@
 # smartpipeline-dashboard# Smart Pipeline
 
-> Upload a file. Get AI results. No manual steps.
+> Upload a file. Get AI results quickly.
 
 Smart Pipeline is a serverless AWS application that automatically analyzes uploaded files using AI. Images, receipts, PDFs, and text files are each routed to the right AWS AI service and results are displayed in a web dashboard.
 
@@ -19,10 +19,7 @@ Smart Pipeline is a serverless AWS application that automatically analyzes uploa
 
 ### AWS architecture
 
-![Architecture diagram](screenshots\smart_pipeline_architecture.svg)
-
-
-> 💡 Add your screenshots to a `screenshots/` folder in the project root and name them to match the filenames above.
+![Architecture diagram](screenshots/smart_pipeline_architecture.svg)
 
 ---
 
@@ -64,7 +61,7 @@ smart-pipeline/
 ├── lambda/
 │   ├── upload_lambda.py
 │   └── processing_lambda.py
-├── screenshots/          ← put your images here
+├── screenshots/         
 └── README.md
 ```
 
