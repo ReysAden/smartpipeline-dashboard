@@ -2,7 +2,7 @@ const fileInput = document.getElementById("file-input");
 const uploadStatus = document.getElementById("upload-status");
 
 const UPLOAD_API =
-  "";
+  "https://pcx10pylah.execute-api.us-east-1.amazonaws.com/default/smart-pipeline-upload";
 
 fileInput.addEventListener("change", async () => {
   const file = fileInput.files[0];

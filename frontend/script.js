@@ -1,4 +1,4 @@
-const API_URL = "";
+const API_URL = "https://b656715pw4.execute-api.us-east-1.amazonaws.com/default/smart-pipeline-get-results";
 
 const tableBody = document.getElementById("results-body");
 const totalFilesEl = document.getElementById("total-files");
