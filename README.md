@@ -1,4 +1,4 @@
-# smartpipeline-dashboard# Smart Pipeline
+# Smart Pipeline Concept 
 
 > Upload a file. Get AI results quickly.
 
